@@ -1,0 +1,19 @@
+.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]
+logs/queries
+duckdb.db
+nano .gitignore
+
+# DuckDB
+*.db
+
+# Data folder
+data/
+*.parquet
+*.csv
+
+# Python
+__pycache__/
+.env
